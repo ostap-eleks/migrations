@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.eleks</groupId>
-	<artifactId>migrations</artifactId>
+	<artifactId>migrations-flyway</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>migrations</name>
+	<name>migrations-flyway</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -22,8 +22,9 @@
 				<artifactId>flyway-maven-plugin</artifactId>
 				<version>5.1.1</version>
 				<configuration>
-					<url>jdbc:postgresql://localhost:5432/aviapartner</url>
+					<url>jdbc:postgresql://localhost:5432/aviapartner-flyway</url>
 					<user>postgres</user>
+                                        <password>1355</password>
 				</configuration>
 				<dependencies>
 					<dependency>
