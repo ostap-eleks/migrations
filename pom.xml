@@ -22,9 +22,9 @@
 				<artifactId>flyway-maven-plugin</artifactId>
 				<version>5.1.1</version>
 				<configuration>
-					<url>jdbc:postgresql://localhost:5432/aviapartner-flyway</url>
+					<url>jdbc:postgresql://localhost:5432/flyway</url>
 					<user>postgres</user>
-                                        <password>1355</password>
+					<password>password</password>
 				</configuration>
 				<dependencies>
 					<dependency>
